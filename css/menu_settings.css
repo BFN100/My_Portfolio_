@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@1,200&family=Shalimar&display=swap');
+@import url(//db.onlinewebfonts.com/c/f30f29c6621ee4f6d36f7b15a0769e84?family=Lucida+Handwriting);
+
+/* Here I fix general header settings
+Ici, je corrige les paramètres généraux de le header
+*/
+
+header {
+    width: 100%;
+    height: 72px;
+}
+
+
+/* General menu checks
+Vérifications générales du menu
+*/
+
+.menu {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    margin-left: 11%;
+    margin-top: 1.5%;
+    max-width: 35%;
+}
+
+
+/* Here are menu link settings
+Voici les paramètres de lien de menu
+*/
+
+.link_menu {
+    color: #1C1C1C;
+    font-family: "Lucida Handwriting";
+    font-size: 14pt;
+    margin-left: -8%;
+    padding: 16pt;
+    text-decoration: none;
+}
+
+
+/* When hovering the mouse over the menu link, this will happen
+Lorsque vous passez la souris sur le lien du menu, cela se produira
+*/
+
+.link_menu:hover {
+    text-decoration: none;
+    font-size: 21px;
+    text-shadow: #646464;
+}
+
+
+/* Menu background color
+Couleur de fond des menus
+*/
+
+.top_menu {
+    background-color: #F8F8FF;
+}
+
+
+/* Social network icon settings
+Paramètres d'icône de réseau social
+*/
+
+.icons {
+    display: inline;
+    float: right;
+    margin-top: 1%;
+    margin-right: 1%;
+}
+
+.link_icons {
+    margin-left: 1%;
+}
+
+
+/* logo settings
+paramètres du logo
+*/
+
+.logo {
+    position: absolute;
+    width: 9.4%;
+    height: 62px;
+    margin-left: 1%;
+    margin-top: 0.3%;
+}
+
+
+/* When hovering the mouse over the logo
+ Au passage de la souris sur le logo*/
+
+.logo:hover {
+    width: 10.4%;
+    height: 68px;
+}
+
+
+/* linkedin icon
+ icône LinkedIn*/
+
+.linkedin {
+    width: 100%;
+    height: 41px;
+}
+
+
+/* When hovering over the linkedin icon
+Au survol de l'icône LinkedIn
+*/
+
+.linkedin:hover {
+    background-color: rgb(123, 165, 255);
+    transition: 0.5s ease-out;
+}
+
+
+/* github icon
+icône github
+*/
+
+.github {
+    width: 100%;
+    height: 40px;
+}
+
+
+/*When hovering over the github icon
+Lorsque vous survolez l'icône github
+ */
+
+.github:hover {
+    background-color: rgb(255, 122, 122);
+    transition: 0.5s ease-out;
+}
+
+
+/* facebook icon
+icône facebook
+*/
+
+.facebook {
+    width: 100%;
+    height: 40px;
+}
+
+
+/*When hovering over the facebook icon
+Au survol de l'icône facebook
+ */
+
+.facebook:hover {
+    background-color: rgb(131, 230, 255);
+    transition: 0.5s ease-out;
+}
+
+
+/* instagram icon
+icône Instagram
+*/
+
+.instagram {
+    width: 100%;
+    height: 41px;
+}
+
+
+/*When hovering over the instagram icon
+Lorsque vous survolez l'icône instagram
+ */
+
+.instagram:hover {
+    background-color: rgb(245, 150, 229);
+    transition: 0.5s ease-out;
+}
+
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+    .logo {
+        background-color: #FB607F;
+        position: absolute;
+        width: 11.4%;
+        height: 62px;
+        margin-left: 1%;
+        margin-top: 0.3%;
+    }
+    .menu {
+        position: absolute;
+        display: inline-block;
+        text-align: left;
+        margin-left: 13%;
+        margin-top: 3%;
+        max-width: 52%;
+    }
+    .link_menu {
+        color: #1C1C1C;
+        font-family: "Lucida Handwriting";
+        font-size: 100%;
+        margin-left: -9px;
+        padding: 14px;
+        text-decoration: none;
+    }
+    .link_menu:hover {
+        text-decoration: none;
+        font-size: 19px;
+        text-shadow: #646464;
+    }
+    .link_icons {
+        margin-left: 1%;
+        width: 100%;
+        height: 100%;
+    }
+}

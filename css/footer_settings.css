@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@1,200&family=Shalimar&display=swap');
+@import url(//db.onlinewebfonts.com/c/f30f29c6621ee4f6d36f7b15a0769e84?family=Lucida+Handwriting);
+
+/* General footer settings
+Paramètres généraux du pied de page
+*/
+
+footer {
+    position: relative;
+    display: -webkit-inline-box;
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 58mm;
+}
+
+
+/*This is the pink line that I put to divide the footer from the other information on the site
+C'est la ligne rose que j'ai mise pour séparer le pied de page des autres informations du site
+*/
+
+.line_footer {
+    position: absolute;
+    background-color: #FB607F;
+    width: 100vw;
+    height: 0.5mm;
+}
+
+
+/* This class was used to fix a spacing between the footer menus
+Cette classe servait à fixer un espacement entre les menus de pied de page
+*/
+
+.footer {
+    margin-left: 90mm;
+}
+
+
+/* Footer title details
+Détails du titre du pied de page
+*/
+
+footer h3 {
+    color: #FB607F;
+    font-size: 14pt;
+    margin-top: 10mm;
+    margin-left: 55mm;
+    padding: 4px;
+    text-decoration: none;
+}
+
+
+/* footer menu links details
+détails des liens du menu de pied de page
+*/
+
+footer a {
+    display: block;
+    padding: 1mm;
+    font-size: 11pt;
+    color: #89898c;
+    text-align: center;
+    margin-left: 51mm;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+/* When placing the mouse over the links they will change to white in 0.5 seconds
+Lorsque vous placez la souris sur les liens, ils deviendront blancs en 0,5 seconde
+*/
+
+.link_footer:hover {
+    text-decoration: none;
+    color: #F8F8FF;
+    transition: 0.5s ease-out;
+}
+
+
+/* Here I fix details of the copyright text
+Ici, je corrige les détails du texte du droit d'auteur
+*/
+
+footer i {
+    display: block;
+    color: #89898c;
+    margin-left: -94mm;
+    margin-top: 50mm;
+    font-size: 9pt;
+}
+
+
+/* here I take the drawing that demarcates the lists
+ici je prends le dessin qui délimite les listes
+*/
+
+ul li {
+    list-style: none;
+}
+
+
+/* For Tablet */
+
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+    footer {
+        position: relative;
+        display: -webkit-inline-box;
+        background-color: #1C1C1C;
+        margin-top: 90%;
+        width: 100%;
+        height: 58mm;
+    }
+    .footer {
+        margin-left: -20px;
+    }
+    footer h3 {
+        color: #FB607F;
+        font-size: 12pt;
+        margin-left: 404%;
+        width: 100%;
+        padding: 2px;
+        text-decoration: none;
+    }
+    footer a {
+        display: block;
+        padding: 1mm;
+        font-size: 10pt;
+        color: #89898c;
+        text-align: center;
+        margin-left: 385%;
+        width: 100%;
+        text-decoration: none;
+        list-style: none;
+    }
+    footer i {
+        display: block;
+        color: #89898c;
+        margin-left: 69%;
+        width: 100%;
+        margin-top: 50mm;
+        font-size: 9pt;
+    }
+    .link_footer:hover {
+        text-decoration: none;
+        color: #F8F8FF;
+        transition: 0.5s ease-out;
+    }
+}

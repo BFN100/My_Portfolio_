@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>BFN Portfolio</title>
+    <!-- Required meta tags -->
+    <!-- Balises meta obligatoires -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Linking with css-->
+    <!-- Lien avec css-->
+    <link rel="stylesheet" type="text/css" href="css/main_style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/footer_settings.css" media="screen" />
+    <!-- Putting an icon on my page-->
+    <!-- Mettre une icône sur ma page-->
+    <link rel="icon" type="imagem/png" href="/images/BFN_logo.png" />
+    <!-- Linking with javascript-->
+    <!-- Lien avec javascript-->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- Linking with fontawesome to use the font I chose-->
+    <!-- Lien avec fontawesome pour utiliser la police que j'ai choisie-->
+    <script src="https://kit.fontawesome.com/8de8adbca7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Home of my top menu -->
+    <!-- Accueil de mon top menu -->
+    <section>
+        <nav class="top_menu">
+            <header>
+                <!-- Here I insert the logo image -->
+                <!-- Ici, j'insère l'image du logo -->
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png" />
+                </a>
+                <!-- The "icons" table will be used to insert the links of the important social networks -->
+                <!-- Le tableau "icônes" servira à insérer les liens des réseaux sociaux importants -->
+                <table class="icons">
+                    <tr>
+                        <td>
+                            <!-- Here I put an image and the link is inserted in it to access my social networks -->
+                            <!-- Ici je mets une image et le lien est inséré dedans pour accéder à mes réseaux sociaux -->
+                            <a href="https://www.linkedin.com/in/bianca-fernandes-nascimento/" target="_blank">
+                                <img class="linkedin" src="images/linkedin_black.png" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://github.com/BFN100" target="_blank">
+                                <img class="github" src="images/github_black.png" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/bianca.fernandes.503" target="_blank">
+                                <img class="facebook" src="images/facebook_black.png" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="https://www.instagram.com/bia.fernandes48/" target="_blank">
+                                <img class="instagram" src="images/instagram_black.png" />
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+            </header>
+            <!-- Here I end the icons section -->
+            <!-- Ici, je termine la section des icônes -->
+        </nav>
+        <!-- End of nav "top_menu" -->
+        <!-- Fin de navigation "top_menu" -->
+    </section>
+
+
+    <section>
+        <!-- The "menu" table will be used to insert the main menu options of the other pages -->
+        <!-- Le tableau "menu" sera utilisé pour insérer les options du menu principal des autres pages -->
+        <table class="menu">
+            <tr>
+                <td>
+                    <a class="link_menu" href="my_projects.html"><b>My Projects</b></a>
+                </td>
+                <td>
+                    <a class="link_menu" href="about_me.html"><b>About me</b></a>
+                </td>
+                <td>
+                    <a class="link_menu" href="contact_me.html"><b>Contact me</b></a>
+                </td>
+            </tr>
+        </table>
+        <!---->
+        <div class="line"></div>
+        <!-- Here is the cover of my portfolio, my presentation -->
+        <!-- Voici la couverture de mon portfolio, ma présentation -->
+        <div class="text">
+            <h1> Hello!
+                </br>
+                <b class="me">
+                        I'm a Creative Developer,
+                    </b>
+            </h1>
+            </br>
+            <h2><b>
+                    Passionate about design, innovation and user experience.
+                </b></h2>
+        </div>
+        <div>
+            <canvas></canvas>
+            <script src="js/script_index.js"></script>
+        </div>
+    </section>
+    <!-- From here, the website content will be displayed. -->
+    <!-- À partir de là, le contenu du site Web sera affiché. -->
+    <section>
+        <div class="all_content">
+            <!-- Here I used "dots" to separate the page in a delicate way and then I put the title "what I do" -->
+            <!-- Ici j'ai utilisé des "points" pour séparer la page de manière délicate puis j'ai mis le titre "ce que je fais" -->
+            <p>. . . . . . . . . . . . . . . . . . . . . . . . . . </p>
+            <h3 class="do">What I do</h3>
+            <!-- Each div there represents a skill that I already have or am developing -->
+            <!-- Chaque div représente une compétence que je possède déjà ou que je développe-->
+            <aside>
+                <div class="content">
+                    <div class="main_">
+                        <img class="img_description" src="images/design.png">
+                        <h5>Design</h5>
+                        <p class="description">Creation of prototypes and design study to create practical, functional and beautiful projects</p>
+                    </div>
+                    <div class="main_">
+                        <img class="img_description" src="images/web.png">
+                        <h5>Websites</h5>
+                        <p class="description">Development of modern and interactive websites</p>
+                    </div>
+                    <div class="main_">
+                        <img class="img_description" src="images/games.png">
+                        <h5>Games</h5>
+                        <p class="description">I'm studying to also develop games with unreal engine 4 with C++ and unity with C#</p>
+                    </div>
+                </div>
+            </aside>
+            <!-- I will finish this part after I hand this work over to my teacher, I won't have time to finish it now -->
+            <!-- Je finirai cette partie après avoir remis ce travail à mon professeur, je n'aurai pas le temps de le finir maintenant -->
+            <!--
+            <div class="separator"></div>
+        </div>
+    
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <input type="radio" name="slider" id="slide5">
+            <div id="slides">
+                <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <h1>Hard Skills</h1>
+                                <h2>Beautiful and quality interface</h2>
+                                <p>With my study and passion for design, I create beautiful and functional websites, taking into account the usability of the same.</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <h2>Front-end</h2>
+                                <p>It's easy for me to work with front-ends as I really like design.</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <h2>Back-end</h2>
+                                <p>At the moment I have knowledge in Javascript and C++ and I intend to improve more and more.</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <h2>Code versioning</h2>
+                                <p>Yes, I create my codes and then I try to improve them to learn more and more how to make a clean code.</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_5">
+                            <div class="slide-content">
+                                <h2>Unit Tests</h2>
+                                <p>I'm studying about unit tests to improve my code more and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="controls">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+            </div>
+            <div id="bullets">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+                <label for="slide5"></label>
+            </div>
+        </div>
+        <!--novos parte 2-->
+            <!--
+            <aside id="slides2">
+                <div id="overflow">
+                    <div class="inner">
+                        <span>Soft Skills</span>
+                        <div class="slide slide_1.2">
+                            <div class="slide-content">
+                                <h2>Constant self improvement</h2>
+                                <p>I'm always creating projects or solving challenges on Github or Frontendmentor, for example.</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_2.2">
+                            <div class="slide-content">
+                                <h2>Determination</h2>
+                                <p>When I decide to do a project, that project will be done and it will be of quality.</p>
+                            </div>
+                        </div>
+                        <div class="slide slide_3.2">
+                            <div class="slide-content">
+                                <h2>Communication</h2>
+                                <p>I am empathetic and I find it easy to work in a team, I speak 3 languages ​​currently: Portuguese, English and Frances</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+            <div id="controls2">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+            <div id="bullets2">
+                <label for="slide1"></label>
+                <label for="slide2"></label>
+                <label for="slide3"></label>
+                <label for="slide4"></label>
+            </div>
+        </div>
+        -->
+        </div>
+    </section>
+    <!-- Ends the main content of the page-->
+    <!-- Termine le contenu principal de la page-->
+</body>
+<!-- This is the footer of the site -->
+<!-- Ceci est le pied de page du site-->
+<footer>
+    <!-- Here in the footer I put both the main menu and the social networks to ensure that people can access correctly, because they had larger pages and it is practical to have them at the bottom of the page too -->
+    <!-- Ici, dans le pied de page, j'ai mis à la fois le menu principal et les réseaux sociaux pour que les gens puissent y accéder correctement, car ils avaient des pages plus grandes et il est pratique de les avoir également en bas de la page -->
+    <div class="line_footer"></div>
+    <div class="footer">
+        <ul>
+            <li>
+                <h3>Menu</h3>
+            </li>
+            <li>
+                <a class="link_footer" href="index.html"><b>Home</b></a>
+            </li>
+            <li>
+                <a class="link_footer" href="my_projects.html"><b>My Projects</b></a>
+            </li>
+            <li>
+                <a class="link_footer" href="about_me.html"><b>About me</b></a>
+            </li>
+            <li>
+                <a class="link_footer" href="contact_me.html"><b>Contact me</b></a>
+            </li>
+        </ul>
+    </div>
+    <!---->
+    <div>
+        <ul>
+            <li>
+                <h3>Social media</h3>
+            </li>
+            <li>
+                <a class="link_footer" href="https://www.linkedin.com/in/bianca-fernandes-nascimento/" target="_blank">Linkedin</a>
+            </li>
+            <li>
+                <a class="link_footer" href="https://github.com/BFN100" target="_blank">GitHub</a>
+            </li>
+            <li>
+                <a class="link_footer" href="https://www.facebook.com/bianca.fernandes.503" target="_blank">Facebook</a>
+            </li>
+            <li>
+                <a class="link_footer" href="https://www.instagram.com/bia.fernandes48/" target="_blank">Instagram</a>
+            </li>
+        </ul>
+    </div>
+    <!-- Here I put the copy rights for myself, since I made the site -->
+    <!-- Ici, je mets les droits d'auteur pour moi-même, puisque j'ai fait le site -->
+    <p>
+        <i>© 2022 Bianca Fernandes Nascimento</i>
+    </p>
+
+</footer>
+
+</html>

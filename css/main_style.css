@@ -1,0 +1,532 @@
+/*source imports
+importations d'origine
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@1,200&family=Shalimar&display=swap');
+@import url(//db.onlinewebfonts.com/c/f30f29c6621ee4f6d36f7b15a0769e84?family=Lucida+Handwriting);
+
+/* General page settings
+Paramètres généraux des pages
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Putting the photo of the page
+Mettre la photo de la page
+*/
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* Here I fix general header settings
+Ici, je corrige les paramètres généraux de le header
+*/
+
+header {
+    position: relative;
+    display: inline-block;
+    height: 18mm;
+}
+
+
+/* General menu checks
+Vérifications générales du menu
+*/
+
+.menu {
+    position: absolute;
+    display: inline-block;
+    text-align: left;
+    margin-left: 46mm;
+    margin-top: -13mm;
+    max-width: 134mm;
+}
+
+
+/* Here are menu link settings
+Voici les paramètres de lien de menu
+*/
+
+.link_menu {
+    color: #1C1C1C;
+    font-family: "Lucida Handwriting";
+    font-size: 14pt;
+    margin-left: -3px;
+    padding: 18px;
+    text-decoration: none;
+}
+
+
+/* When hovering the mouse over the menu link, this will happen
+Lorsque vous passez la souris sur le lien du menu, cela se produira
+*/
+
+.link_menu:hover {
+    text-decoration: none;
+    font-size: 21px;
+    text-shadow: #646464;
+}
+
+
+/* This is the line that demarcates which page we are on
+C'est la ligne qui marque la page sur laquelle nous nous trouvons
+ */
+
+.line {
+    position: absolute;
+    background-color: #FB607F;
+    margin-left: 1mm;
+    width: 41mm;
+    height: 1.2mm;
+}
+
+
+/* Menu background color
+Couleur de fond des menus
+*/
+
+.top_menu {
+    background-color: #F8F8FF;
+}
+
+
+/* Social network icon settings
+Paramètres d'icône de réseau social
+*/
+
+.icons {
+    position: absolute;
+    display: inline;
+    margin-top: 3.7mm;
+    margin-left: 353.2mm;
+}
+
+
+/* logo settings
+paramètres du logo
+*/
+
+.logo {
+    position: absolute;
+    width: 141px;
+    height: 62px;
+    margin-left: 4mm;
+    margin-top: 1mm;
+}
+
+
+/* When hovering the mouse over the logo
+ Au passage de la souris sur le logo*/
+
+.logo:hover {
+    width: 149px;
+    height: 68px;
+}
+
+
+/* linkedin icon
+ icône LinkedIn*/
+
+.linkedin {
+    width: 40px;
+    height: 40px;
+}
+
+
+/* When hovering over the linkedin icon
+Au survol de l'icône LinkedIn
+*/
+
+.linkedin:hover {
+    background-color: rgb(123, 165, 255);
+    transition: 0.5s ease-out;
+}
+
+
+/* github icon
+icône github
+*/
+
+.github {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*When hovering over the github icon
+Lorsque vous survolez l'icône github
+ */
+
+.github:hover {
+    background-color: rgb(255, 122, 122);
+    transition: 0.5s ease-out;
+}
+
+
+/* facebook icon
+icône facebook
+*/
+
+.facebook {
+    width: 40px;
+    height: 40px;
+}
+
+
+/*When hovering over the facebook icon
+Au survol de l'icône facebook
+ */
+
+.facebook:hover {
+    background-color: rgb(131, 230, 255);
+    transition: 0.5s ease-out;
+}
+
+
+/* instagram icon
+icône Instagram
+*/
+
+.instagram {
+    width: 43.2px;
+    height: 41.1px;
+}
+
+
+/*When hovering over the instagram icon
+Lorsque vous survolez l'icône instagram
+ */
+
+.instagram:hover {
+    background-color: rgb(245, 150, 229);
+    transition: 0.5s ease-out;
+}
+
+
+/* General page settings in the "body" part
+Paramètres généraux de la page dans la partie "body"
+*/
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #1C1C1C;
+    background-image: radial-gradient(circle at top right, #1C1C1C, transparent), radial-gradient(circle at 20% 80%, #1C1C1C, transparent)
+}
+
+
+/* This canvas was used to create the javascript and give life to the background of the main page
+Ce canevas a été utilisé pour créer le javascript et donner vie au fond de la page principale
+*/
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* This part is the title edit
+Cette partie est l'édition du titre
+ */
+
+.text {
+    position: absolute;
+    color: #F8F8FF;
+    margin-top: 51mm;
+    margin-left: 128mm;
+    font-size: 16pt;
+    width: 146mm;
+    transform: rotate3d(1, -1, 0, 27deg);
+}
+
+
+/* This is the yellow detail of the title
+C'est le détail jaune du titre
+*/
+
+.me {
+    font-size: 38pt;
+    color: #f3ff4a;
+}
+
+
+/* Here is the edition of the general content of the site page, the writings and details
+Voici l'édition du contenu général de la page du site, les écrits et détails
+*/
+
+.all_content {
+    position: relative;
+    color: #f3ff4a;
+    font-size: 33pt;
+    margin-top: 20mm;
+    margin-left: 124mm;
+    width: 100vw;
+    height: 641px;
+}
+
+
+/* Title setting about what I do
+Définition du titre sur ce que je fais
+ */
+
+.do {
+    color: #F8F8FF;
+    font-size: 25pt;
+    margin-top: 8mm;
+    margin-left: 48mm;
+    padding: 4px;
+}
+
+
+/* Editing information about my current and/or future skills
+Modifier les informations sur mes compétences actuelles et/ou futures
+*/
+
+.content {
+    display: inline-flex;
+    margin-top: 32mm;
+    margin-left: -145mm;
+    padding: 2mm;
+}
+
+
+/* Here I fix details of each block of those skills
+ Ici, je corrige les détails de chaque bloc de ces compétences*/
+
+.main_ {
+    text-align: center;
+    margin-left: 34mm;
+    width: 99mm;
+}
+
+
+/* In this part I touch the details of the skills title
+Dans cette partie, j'entre dans les détails du titre des compétences
+*/
+
+h5 {
+    font-size: 21pt;
+    padding: 2mm;
+}
+
+
+/* Skill image details
+Détails de l'image de la compétence
+ */
+
+.img_description {
+    width: 30mm;
+    height: 30mm;
+}
+
+
+/* Skill description details
+Détails de la description de la compétence
+ */
+
+.description {
+    position: relative;
+    color: #F8F8FF;
+    font-size: 12pt;
+}
+
+
+/*I will finish this part after I hand this work over to my teacher, I won't have time to finish it now 
+Je finirai cette partie après avoir remis ce travail à mon professeur, je n'aurai pas le temps de le finir maintenant 
+.separator {
+    background-color: #f3ff4a;
+    margin-top: 44mm;
+    margin-left: -124mm;
+    width: 100vw;
+    height: 0.5mm;
+}
+
+.slide-content h2 {
+    padding: 2mm;
+}
+
+#slider {
+    margin: 0 auto;
+    width: 800px;
+    max-width: 100%;
+    text-align: center;
+}
+
+#slider input[type=radio] {
+    display: none;
+}
+
+#slider label {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#slides {
+    padding: 10px;
+    border: 3px solid #ccc;
+    background: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#overflow {
+    width: 100%;
+    overflow: hidden;
+}
+
+#slide1:checked~#slides .inner {
+    margin-left: 0;
+}
+
+#slide2:checked~#slides .inner {
+    margin-left: -100%;
+}
+
+#slide3:checked~#slides .inner {
+    margin-left: -200%;
+}
+
+#slide4:checked~#slides .inner {
+    margin-left: -300%;
+}
+
+#slide5:checked~#slides .inner {
+    margin-left: -300%;
+}
+
+#slides .inner {
+    transition: margin-left 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
+    width: 400%;
+    line-height: 0;
+    height: 300px;
+}
+
+#slides .slide {
+    width: 25%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: #fff;
+}
+
+#slides .slide_1 {
+    background: #00171F;
+}
+
+#slides .slide_2 {
+    background: #003459;
+}
+
+#slides .slide_3 {
+    background: #007EA7;
+}
+
+#slides .slide_4 {
+    background: #00A8E8;
+}
+
+#slides .slide_5 {
+    background: #00A8E8;
+}
+
+#controls {
+    margin: -180px 0 0 0;
+    width: 100%;
+    height: 50px;
+    z-index: 3;
+    position: relative;
+}
+
+#controls label {
+    transition: opacity 0.2s ease-out;
+    display: none;
+    width: 50px;
+    height: 50px;
+    opacity: .4;
+}
+
+#controls label:hover {
+    opacity: 1;
+}
+
+#slide1:checked~#controls label:nth-child(2),
+#slide2:checked~#controls label:nth-child(3),
+#slide3:checked~#controls label:nth-child(4),
+#slide4:checked~#controls label:nth-child(5),
+#slide5:checked~#controls label:nth-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
+    float: right;
+    margin: 0 -50px 0 0;
+    display: block;
+}
+
+#slide1:checked~#controls label:nth-last-child(2),
+#slide2:checked~#controls label:nth-last-child(3),
+#slide3:checked~#controls label:nth-last-child(4),
+#slide4:checked~#controls label:nth-last-child(5),
+#slide5:checked~#controls label:nth-last-child(1) {
+    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
+    float: left;
+    margin: 0 0 0 -50px;
+    display: block;
+}
+
+#bullets {
+    margin: 150px 0 0;
+    text-align: center;
+}
+
+#bullets label {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+#slide1:checked~#bullets label:nth-child(1),
+#slide2:checked~#bullets label:nth-child(2),
+#slide3:checked~#bullets label:nth-child(3),
+#slide4:checked~#bullets label:nth-child(4),
+#slide5:checked~#bullets label:nth-child(5) {
+    background: #444;
+}
+
+@media screen and (max-width: 900px) {
+    #slide1:checked~#controls label:nth-child(2),
+    #slide2:checked~#controls label:nth-child(3),
+    #slide3:checked~#controls label:nth-child(4),
+    #slide4:checked~#controls label:nth-child(5),
+    #slide5:checked~#controls label:nth-child(1),
+    #slide1:checked~#controls label:nth-last-child(2),
+    #slide2:checked~#controls label:nth-last-child(3),
+    #slide3:checked~#controls label:nth-last-child(4),
+    #slide4:checked~#controls label:nth-last-child(5),
+    #slide5:checked~#controls label:nth-last-child(1) {
+        margin: 0;
+    }
+    #slides {
+        max-width: calc(100% - 140px);
+        margin: 0 auto;
+    }
+}
+*/
+
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+    .content {
+        display: inline-block;
+        margin-top: 32mm;
+        margin-left: -145mm;
+        padding: 2mm;
+    }
+}

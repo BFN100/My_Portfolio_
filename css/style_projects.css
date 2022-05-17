@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@1,200&family=Shalimar&display=swap');
+@import url(//db.onlinewebfonts.com/c/f30f29c6621ee4f6d36f7b15a0769e84?family=Lucida+Handwriting);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+.line {
+    position: absolute;
+    background-color: #FB607F;
+    margin-top: 19mm;
+    margin-left: 46mm;
+    width: 41mm;
+    height: 1.2mm;
+}
+
+#projects {
+    border-bottom: #7256c5;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #1C1C1C;
+    color: #F8F8FF;
+}
+
+.container {
+    font-size: 24pt;
+    margin-top: 28mm;
+    margin-left: 167mm;
+    width: 108mm;
+    height: 90mm;
+    transform: rotate(-26deg);
+}
+
+.start_right {
+    position: absolute;
+    width: 929px;
+    height: 105px;
+    background-color: #7256c5;
+    margin-top: 34mm;
+    margin-left: -41mm;
+    transform: rotate(215deg);
+}
+
+.end_right {
+    position: absolute;
+    width: 1175px;
+    height: 105px;
+    background-color: #7256c5;
+    margin-top: 35.2mm;
+    margin-left: 153mm;
+    transform: rotate(154deg);
+}
+
+.img_knowledge {
+    position: absolute;
+    display: inline-block;
+    width: 34mm;
+    height: 28mm;
+}
+
+#swift {
+    margin-top: 5mm;
+}
+
+#git {
+    margin-top: 26mm;
+    margin-left: 31mm;
+}
+
+#java {
+    margin-top: 48mm;
+    margin-left: 61mm;
+}
+
+#c {
+    margin-top: 72mm;
+    margin-left: 92mm;
+}
+
+#js {
+    margin-top: 96mm;
+    margin-left: 128mm;
+}
+
+#html {
+    margin-top: 82mm;
+    margin-left: 168mm;
+}
+
+#css {
+    margin-top: 62mm;
+    margin-left: 205mm;
+}
+
+#bootstrap {
+    margin-top: 44mm;
+    margin-left: 243mm;
+}
+
+#photoshop {
+    margin-top: 26mm;
+    margin-left: 282mm;
+}
+
+#figma {
+    margin-top: 6mm;
+    margin-left: 321mm;
+}
+
+#resp {
+    margin-top: -11mm;
+    margin-left: 358mm;
+}
+
+.all_projects {
+    position: relative;
+    display: block;
+    margin-top: 70mm;
+    color: #F8F8FF;
+    text-align: center;
+}
+
+.all_projects h1 {
+    font-size: 28pt;
+    color: #7a62c4;
+}
+
+.all_projects p {
+    font-size: 52pt;
+    padding: 2mm;
+    margin-left: 2.5mm;
+    color: #646464;
+}
+
+.project {
+    background-color: #2d2d2d;
+    color: #F8F8FF;
+    display: inline-block;
+    width: 92mm;
+    height: 104mm;
+    border-radius: 8%;
+    align-items: center;
+}
+
+.main_img {
+    width: 86mm;
+    height: 47mm;
+    border-radius: 9%;
+    margin-top: 3mm;
+}
+
+.project h4 {
+    margin-top: 3mm;
+    margin-left: 3mm;
+    width: 84mm;
+}
+
+.project p {
+    font-size: 10pt;
+    color: #89898c;
+    margin-top: 1mm;
+    margin-left: 3mm;
+    width: 84mm;
+}
+
+.langue_icon {
+    margin-top: 1mm;
+    border-radius: 38%;
+    width: 15mm;
+    height: 9mm;
+}
+
+.button {
+    display: inline-block;
+    background-color: #7a62c4;
+    color: #F8F8FF;
+    border-radius: 9%;
+    margin-top: 3mm;
+    width: 17mm;
+    height: 8mm;
+}
+
+.button:hover {
+    background-color: #FB607F;
+    box-shadow: inset 2px 2px 2px #646464;
+    text-shadow: none;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    display: inline-flex;
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 58mm;
+}
+
+.line_footer {
+    position: absolute;
+    background-color: #FB607F;
+    width: 100vw;
+    height: 0.5mm;
+}
+
+.text_footer {
+    margin-top: 10mm;
+}
+
+.footer {
+    margin-left: 97.5mm;
+}
+
+footer h3 {
+    color: #FB607F;
+    font-size: 14pt;
+    margin-top: 10mm;
+    margin-left: 55mm;
+    padding: 4px;
+    text-decoration: none;
+}
+
+footer a {
+    display: block;
+    padding: 1mm;
+    font-size: 11pt;
+    color: #89898c;
+    text-align: center;
+    margin-left: 51mm;
+    text-decoration: none;
+    list-style: none;
+}
+
+.link_footer:hover {
+    text-decoration: none;
+    color: #F8F8FF;
+    transition: 0.5s ease-out;
+}
+
+footer i {
+    display: block;
+    color: #89898c;
+    margin-left: -94mm;
+    margin-top: 50mm;
+    font-size: 9pt;
+}
+
+ul li {
+    list-style: none;
+}

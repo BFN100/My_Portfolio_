@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Nunito:ital,wght@1,200&family=Shalimar&display=swap');
+@import url(//db.onlinewebfonts.com/c/f30f29c6621ee4f6d36f7b15a0769e84?family=Lucida+Handwriting);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.line {
+    position: absolute;
+    background-color: #FB607F;
+    margin-top: 19mm;
+    margin-left: 84mm;
+    width: 41mm;
+    height: 1.2mm;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: #1C1C1C;
+    color: #F8F8FF;
+}
+
+.background-black {
+    background-color: #1c1c1c4d;
+    margin-top: 1.2mm;
+    width: 100%;
+    height: 172mm;
+    position: absolute;
+}
+
+.img1 {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 325px;
+    margin-left: 1144px;
+    width: 144px;
+    height: 171px;
+}
+
+.img2 {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 152px;
+    margin-left: 228px;
+    width: 144px;
+    height: 171px;
+}
+
+.img3 {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 358px;
+    margin-left: 1297px;
+    width: 217px;
+    height: 286px;
+}
+
+.img4 {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 4px;
+    width: 217px;
+    height: 286px;
+}
+
+.img5 {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 5px;
+    margin-left: 1234px;
+    width: 280px;
+    height: 198px;
+}
+
+.img6 {
+    position: absolute;
+    border-radius: 6px;
+    margin-top: 445px;
+    margin-left: 4px;
+    width: 280px;
+    height: 198px;
+}
+
+.container {
+    position: relative;
+    height: 172mm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    font-size: 2.2rem;
+    padding: 0.5rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container p span.typed-text {
+    font-weight: normal;
+    color: #f3ff4a;
+}
+
+.container p span.cursor {
+    display: inline-block;
+    background-color: #ccc;
+    margin-left: 0.1rem;
+    width: 3px;
+    animation: blink 1s infinite;
+}
+
+.container p span.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: #ccc;
+    }
+    49% {
+        background-color: #ccc;
+    }
+    50% {
+        background-color: transparent;
+    }
+    99% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: #ccc;
+    }
+}
+
+.about {
+    background-color: #252525;
+}
+
+.about_me {
+    padding: 10mm;
+    margin-left: 72mm;
+    font-size: 12pt;
+    width: 250mm;
+    text-align: center;
+}
+
+.about_me h1,
+h3 {
+    text-shadow: #ccc;
+    color: #f3ff4a;
+}
+
+.w1 {
+    position: absolute;
+    width: 54mm;
+    margin-top: 9mm;
+    margin-left: 10mm;
+    height: 105mm;
+}
+
+.w2 {
+    position: absolute;
+    width: 31mm;
+    margin-top: 7mm;
+    margin-left: 346mm;
+    height: 109mm;
+}
